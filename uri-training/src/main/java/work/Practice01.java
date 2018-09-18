@@ -27,8 +27,17 @@ public class Practice01 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		response.setContentType("text/html;charset=UTF-8");
-
 		PrintWriter out = response.getWriter();
-		out.println("演習01:正解です！");
+
+		out.println("<html>                                                            ");
+		out.println("<head>                                                            ");
+		out.println("  <meta charset=\"UTF-8\">                                        ");
+		out.println("  <title>演習問題01</title>                                       ");
+		out.println("</head>                                                           ");
+		out.println("<body>                                                            ");
+		out.println("  <h1>演習問題01は正解です！！</h1>                               ");
+		out.println("  <p>次は簡単なHTMLファイルをブラウザに表示させてみましょう。</p> ");
+		out.println("</body>                                                           ");
+		out.println("</html>                                                           ");
 	}
 }
