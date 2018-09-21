@@ -7,7 +7,7 @@
 # Eclipse（warにしてデプロイする場合は不要）
 # .project
 # .classpath
-.settings
+# .settings
 
 # Gradle
 .gradle
