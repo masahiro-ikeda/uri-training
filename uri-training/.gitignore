@@ -5,9 +5,9 @@
 *.ear
 
 # Eclipse（warにしてデプロイする場合は不要）
-# .project
-# .classpath
-# .settings
+.project
+.classpath
+.settings
 
 # Gradle
 .gradle
